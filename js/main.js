@@ -24,9 +24,9 @@ var config_url;
 var options =
 {
   url: "https://bustracker.pvta.com/InfoPoint/rest/",
-  title: "",                      // title to display at top of page
-  stops: [],
-  routes: [],
+  title: "North Pleasant Street",                      // title to display at top of page
+  stops: ["58","56","64","63","71","72"],
+  routes: ["30", "31", "33", "34", "35", "36", "45", "46"],
   excluded_trips: [],
   sort: "route",                  // default way to sort departures
   interval: 30000,                // default time in ms between refreshes
