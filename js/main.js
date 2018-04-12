@@ -24,16 +24,16 @@ var config_url;
 var options =
 {
   url: "https://bustracker.pvta.com/InfoPoint/rest/",
-  title: "North Pleasant Street",                      // title to display at top of page
+  title: "North Pleasant Street - Departures",                      // title to display at top of page
   stops: ["58","56","64","63","71","72"],
   routes: ["30", "31", "33", "34", "35", "36", "45", "46"],
   excluded_trips: [],
   sort: "route",                  // default way to sort departures
   interval: 30000,                // default time in ms between refreshes
   work_day_start: 4,              // default time a new transit day starts
-  start_animation: 'flipInX',  // default animate CSS for each row to be added with
-  end_animation: 'flipOutX',       // default animate CSS for everything to be removed with at once
-  alternateInterval: 3000,        // default time in ms between alternating time and interval
+  start_animation: 'pulse',  // default animate CSS for each row to be added with
+  end_animation: 'pulse',       // default animate CSS for everything to be removed with at once
+  alternateInterval: 5000,        // default time in ms between alternating time and interval
   disableAlternation: false,      // whether alternation should be disabled
   showMessages: 'yes',            // whether to show messages - 'yes', 'no', or 'only' for no departures
 }
