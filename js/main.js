@@ -32,7 +32,7 @@ var options =
   interval: 30000,                // default time in ms between refreshes
   work_day_start: 4,              // default time a new transit day starts
   start_animation: 'pulse',  // default animate CSS for each row to be added with
-  end_animation: 'fadeOut',       // default animate CSS for everything to be removed with at once
+  end_animation: 'pulse',       // default animate CSS for everything to be removed with at once
   alternateInterval: 3000,        // default time in ms between alternating time and interval
   disableAlternation: false,      // whether alternation should be disabled
   showMessages: 'yes',            // whether to show messages - 'yes', 'no', or 'only' for no departures
