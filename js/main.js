@@ -24,8 +24,10 @@ var config_url;
 var options =
 {
   url: "https://bustracker.pvta.com/InfoPoint/rest/",
-  title: "North Pleasant Street - Departures",                      // title to display at top of page
-  stops: ["58","56","64","63","71","72"],
+  //title: "North Pleasant Street - Departures",  // title to display at top of page
+  title: "Orchard Hill Residential
+  //stops: ["58","56","64","63","71","72"], // Stops on North Pleasant
+  stops: ["59","62"]
   routes: ["30", "31", "33", "34", "35", "36", "45", "46"],
   excluded_trips: [],
   sort: "route",                  // default way to sort departures
