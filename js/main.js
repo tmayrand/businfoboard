@@ -24,13 +24,11 @@ var config_url;
 var options =
 {
   url: "https://bustracker.pvta.com/InfoPoint/rest/",
-  //title: "North Pleasant Street - Departures",  // title to display at top of page
-  //title: "Orchard Hill Residential",
-  title: "The North End",
+  title: "Campus Flow",
   //stops: ["58","56","64","63","71","72"], // Stops on North Pleasant
-  //stops: ["59","62"], // Orchard Hill
-  stops: ["58","56"],
-  routes: ["30", "31", "33", "34", "35", "36", "45", "46"],
+  //stops: ["59","62"], // Orchard Hill Residential
+  stops: ["72", "58", "67", "70"], // NP entry points: SAB + PSB, MullCtr + RecCtr
+  routes: ["30", "31", "33", "34", "35", "36", "38", "39", "45", "46"],
   excluded_trips: [],
   sort: "route",                  // default way to sort departures
   interval: 30000,                // default time in ms between refreshes
